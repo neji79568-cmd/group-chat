@@ -47,7 +47,7 @@ export default function Home() {
   return (
     <div className="app">
       <header className="topbar">
-        <a className="brand" href="/" aria-label="Групповой чат — главная"><span className="brand-icon"><ChatIcon /></span><span>Групповой чат</span></a>
+        <a className="brand" href="./" aria-label="Групповой чат — главная"><span className="brand-icon"><ChatIcon /></span><span>Групповой чат</span></a>
         <span className="topbar-caption">Место для вашей группы</span>
       </header>
       <main className={signedIn ? "chat-main" : "auth-main"}>

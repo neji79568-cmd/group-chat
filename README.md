@@ -2,6 +2,24 @@
 
 React + TypeScript, Vinext/Vite. Реальные API и WebSocket, без собственного сервера авторизации.
 
+## GitHub Pages
+
+Ссылка для запуска: https://neji79568-cmd.github.io/group-chat/
+
+Workflow `.github/workflows/pages.yml` проверяет TypeScript, собирает статическую версию и публикует её при каждом push в `main`.
+
+```powershell
+npm.cmd ci
+# Локальная разработка версии для Pages
+npm.cmd run dev:pages
+# Статическая сборка в dist-pages
+npm.cmd run build:pages
+# Просмотр собранной версии
+npm.cmd run preview:pages
+```
+
+Откройте показанный терминалом адрес с путём `/group-chat/`. Версия для Pages использует те же компоненты и API, что и приложение Sites.
+
 ## Запуск
 
 Требуется Node.js 22.13+.
