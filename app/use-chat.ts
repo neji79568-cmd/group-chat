@@ -1,5 +1,3 @@
-'use client';
-
 import { useCallback, useEffect, useRef, useState } from 'react';
 
 const API = 'https://inai-col3.fishrungames.com/api';
